@@ -14,7 +14,7 @@ namespace Us.Web.Api.Democracy.Domain.Services
         public async Task<Either<ErrorResponse, double>> GetHierarchySnapshot(int userId)
         {
             var response = await userRepository.GetUserById(userId);
-            return response.Map(user => 1 / (double)user.Followers);
+            return response.Map(user => user.Followers < 1 ? 1 : 1 / (double)user.Followers);
         }
     }
 }
