@@ -9,4 +9,11 @@ namespace Us.Web.Api.Democracy.Model.Error
         public string Message { get; set; } = string.Empty;
         
     }
+
+    public class ErrorResponse
+    {
+        public string Title { get; set; } = string.Empty;
+        public HttpStatusCode Status { get; set; }
+        public string Message { get; set; } = string.Empty;
+    }
 }

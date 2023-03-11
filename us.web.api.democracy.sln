@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "us.web.api.democracy", "us.web.api.democracy\us.web.api.democracy.csproj", "{CF9DBF2D-BE6E-4644-90F9-2B6A2E964709}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "us.web.api.democracy.dataaccess", "us.web.api.democracy.dataaccess\us.web.api.democracy.dataaccess.csproj", "{42A81E1A-FB63-4669-9924-BB2D737DB800}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "us.web.api.democracy.domain", "us.web.api.democracy.domain\us.web.api.democracy.domain.csproj", "{9970D00B-F9D4-46A6-898D-E17EEED8FFBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "us.web.api.democracy.infrastructure", "us.web.api.democracy.infrastructure\us.web.api.democracy.infrastructure.csproj", "{D8EC43D1-E436-47F2-A3C9-0A5F9C61F0EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "us.web.api.democracy.model", "us.web.api.democracy.model\us.web.api.democracy.model.csproj", "{5A57C222-13BD-4DD1-AE03-D0DD6A572A5F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF9DBF2D-BE6E-4644-90F9-2B6A2E964709}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF9DBF2D-BE6E-4644-90F9-2B6A2E964709}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF9DBF2D-BE6E-4644-90F9-2B6A2E964709}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF9DBF2D-BE6E-4644-90F9-2B6A2E964709}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42A81E1A-FB63-4669-9924-BB2D737DB800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42A81E1A-FB63-4669-9924-BB2D737DB800}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42A81E1A-FB63-4669-9924-BB2D737DB800}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42A81E1A-FB63-4669-9924-BB2D737DB800}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9970D00B-F9D4-46A6-898D-E17EEED8FFBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9970D00B-F9D4-46A6-898D-E17EEED8FFBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9970D00B-F9D4-46A6-898D-E17EEED8FFBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9970D00B-F9D4-46A6-898D-E17EEED8FFBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8EC43D1-E436-47F2-A3C9-0A5F9C61F0EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8EC43D1-E436-47F2-A3C9-0A5F9C61F0EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8EC43D1-E436-47F2-A3C9-0A5F9C61F0EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8EC43D1-E436-47F2-A3C9-0A5F9C61F0EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A57C222-13BD-4DD1-AE03-D0DD6A572A5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A57C222-13BD-4DD1-AE03-D0DD6A572A5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A57C222-13BD-4DD1-AE03-D0DD6A572A5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A57C222-13BD-4DD1-AE03-D0DD6A572A5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
